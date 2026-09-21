@@ -1,12 +1,5 @@
 # The Historical Continuum of Hip Hop
-<div class="relative overflow-hidden rounded-2xl bg-stone-900 border border-amber-900/60 p-8 mb-10 shadow-2xl">
-  <!-- Subtle geometric grid pattern representing structural weaving -->
-  <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#b45309_1.5px,transparent_1.5px)] [background-size:20px_20px]"></div>
-  
-  <div class="relative z-10 max-w-2xl">
-    <div class="inline-block px-3 py-1 mb-3 text-xs font-mono font-semibold tracking-widest text-amber-500 uppercase bg-amber-950/50 border border-amber-800/40 rounded-full">
-      Pan-African Orality &amp; Cultural Archive
-    </div>
+![Hip-Hop Continuum Banner](https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80)
     <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-3">
       The Hip-Hop Continuum
     </h1>
