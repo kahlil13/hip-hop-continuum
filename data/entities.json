@@ -1,58 +1,72 @@
 [
   {
-    "name": "West African Griot",
+    "name": "West African Griots and Jallis",
     "type": "Tradition",
     "era": "Pre-19th Century",
-    "origin": "West Africa (Mali, Senegal, Gambia)",
-    "description": "Hereditary verbal specialists responsible for historical narration, genealogy, praise, critique, diplomacy, and musical performance. They are the foundational ancestral node of the oral rhythmic continuum."
+    "origin": "West Africa (Mande, Wolof, Hausa)",
+    "description": "Hereditary verbal bards utilized rhythmic speech, pitch-contour modulation, and mnemonic formulas over traditional percussive instruments to serve as community archives and political arbiters[cite: 1, 2]. They established the functional precedent for the modern MC[cite: 1]."
   },
   {
-    "name": "Black American Preaching",
+    "name": "Street Toasts and The Dozens",
     "type": "Tradition",
-    "era": "19th - 20th Century",
-    "origin": "American South",
-    "description": "Church traditions utilizing cadence, vocal inflection, repetition, audience participation, and call-and-response. This established the foundational rhythmic relationship between a speaker and a crowd."
+    "era": "Post-Emancipation",
+    "origin": "Urban Black Communities",
+    "description": "Secularized vocal structures mutated into long-form rhymed narrative folk poems known as Toasts, featuring figures like Stackolee and the Signifying Monkey[cite: 1, 2]. This evolved into ritualized verbal combat designed to develop emotional discipline and linguistic agility[cite: 2]."
   },
   {
-    "name": "Jazz Vocal Improvisation",
+    "name": "Jazz Vocalese and Scatting",
     "type": "Technique",
     "era": "1920s - 1950s",
-    "origin": "New Orleans, Chicago, New York",
-    "description": "Improvised vocal practices including scat singing and rhythmic manipulation, separating the voice from strict lyrical meaning and treating it as a percussive instrument."
+    "origin": "Jazz Hubs (New Orleans, Chicago, NY)",
+    "description": "Innovators set intricate, multisyllabic narrative rhymes precisely atop complex bebop instrumental solos[cite: 2]. This era taught early MCs internal rhyme placement, metric syncopation, and crowd-activation phrasing[cite: 2]."
   },
   {
-    "name": "Spoken Word and Street Verbal Traditions",
-    "type": "Tradition",
-    "era": "1960s",
-    "origin": "Urban Centers (New York, Chicago)",
-    "description": "Performed poetry, verbal competition, the dozens, signifying, and social commentary. This era codified rhythmic street speech as a tool for political and social expression."
+    "name": "E-mu SP-1200",
+    "type": "Hardware",
+    "era": "1987",
+    "origin": "Silicon Valley / Global",
+    "description": "A 12-bit digital sampler with a 26.04 kHz sample rate and a 10-second memory capacity[cite: 1, 2]. Producers pitch-shifted 33 RPM records to 45 RPM into the unit to conserve memory, creating a gritty quantization noise and punchy mid-range that formed the foundation of 1990s Boom-Bap[cite: 1, 2]."
   },
   {
-    "name": "The Last Poets",
-    "type": "Entity",
-    "era": "Late 1960s",
+    "name": "Roland TR-808",
+    "type": "Hardware",
+    "era": "1980s - Present",
+    "origin": "Japan / Global",
+    "description": "An analog drum machine producing a pure sine-wave low-frequency generator (20–60 Hz)[cite: 1, 2]. It defined Miami Bass, Memphis Tape music, Southern Crunk, and modern Trap through its room-shaking sub-bass sustain and sharp snare snaps[cite: 1, 2]."
+  },
+  {
+    "name": "Nation of Gods and Earths",
+    "type": "Philosophy",
+    "era": "1964",
     "origin": "Harlem, New York",
-    "description": "A collective of poets and musicians arising from the Black Civil Rights movement. Their politically charged, rhythmic spoken-word over minimal drum backing heavily influenced the cadence and subject matter of early MCing."
+    "description": "Founded by Clarence 13X, this movement established Supreme Mathematics and the Supreme Alphabet[cite: 1, 2, 3]. It provided an empowering intellectual framework that encouraged self-education and embedded terms like 'Cipher' and 'Word is Bond' into global youth vernacular[cite: 1, 2]."
   },
   {
-    "name": "New York Hip Hop Culture",
-    "type": "Era",
-    "era": "1970s",
-    "origin": "Bronx, New York",
-    "description": "The convergence of DJ techniques, extended breakbeats, rhythmic spoken performance, b-boying, and visual art within youth social spaces. This marks the formal synthesis of earlier continuum traditions."
+    "name": "Houston Chopped and Screwed",
+    "type": "Regional Scene",
+    "era": "Early 1990s",
+    "origin": "Houston, Texas",
+    "description": "Pioneered by DJ Screw, this technique slowed 33/45 RPM vinyl to 60–70 BPM with fader cuts[cite: 1, 2]. Designed for lowrider slab car audio systems, it created a relaxing, syrup-like aesthetic mirroring local subcultures[cite: 1, 2]."
   },
   {
-    "name": "Hip Hop MCing",
-    "type": "Tradition",
-    "era": "Late 1970s - Present",
-    "origin": "New York",
-    "description": "Microphone-based performance combining rhythmic speech, rhyme, audience interaction, improvisation, competition, storytelling, and social commentary."
+    "name": "B-Boying and Cypher Mechanics",
+    "type": "Kinetic Element",
+    "era": "1970s - Present",
+    "origin": "South Bronx, New York",
+    "description": "Breakdancing converted the rhythmic drum breaks isolated by DJs into physical movement, featuring toprock, downrock, power moves, and freezes[cite: 1, 2]. Battles occur within a physical cypher directly inherited from the West African Ring Shout[cite: 1, 2]."
   },
   {
-    "name": "Regional Expansion",
-    "type": "Era",
-    "era": "1980s - 1990s",
-    "origin": "Los Angeles, Houston, Atlanta, Virginia",
-    "description": "The decentralization of Hip Hop from New York, leading to distinct regional production styles, tempos, and localized slang that built upon the core MCing and DJing traditions."
+    "name": "UK Grime and Drill",
+    "type": "Regional Scene",
+    "era": "Early 2000s - Present",
+    "origin": "London, United Kingdom",
+    "description": "British youth merged American rap, Jamaican Dancehall, and UK Garage to create Grime, operating at 140 BPM with double-time couplets[cite: 1, 2]. UK Drill later adapted Chicago drill production, introducing sliding 808 sub-basslines that re-influenced American rap[cite: 1, 2]."
+  },
+  {
+    "name": "Sylvia Robinson",
+    "type": "Executive",
+    "era": "1979 - 1985",
+    "origin": "New Jersey / New York",
+    "description": "Founded Sugar Hill Records in 1979, assembled The Sugarhill Gang, and produced Grandmaster Flash & The Furious Five's 'The Message'[cite: 1, 2]. Her architectural vision proved the commercial viability and socially conscious potential of the genre[cite: 1, 2]."
   }
 ]
