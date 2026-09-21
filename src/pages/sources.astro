@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import sources from '../../data/sources.json';
+---
+
+<BaseLayout
+  title="Sources — The Historical Continuum of Hip Hop"
+  description="Research and archival references for the Hip Hop Continuum."
+>
+  <main class="max-w-3xl">
+    <p class="text-xs uppercase tracking-[0.3em] text-blue-400">Research layer</p>
+    <h1 class="mt-3 text-4xl font-bold text-white">Sources</h1>
+    <p class="mt-4 leading-7 text-gray-300">
+      The archive separates source material from the interpretations built from it. Sources can be attached to timeline entries, traditions, techniques, and relationships as the corpus grows.
+    </p>
+
+    <div class="mt-10 space-y-4">
+      {sources.map((source) => (
+        <article class="rounded-xl border border-gray-700 bg-gray-800 p-5">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <p class="text-xs uppercase tracking-wider text-gray-500">{source.type}</p>
+              <h2 class="mt-1 text-lg font-semibold text-white">{source.title}</h2>
+              <p class="mt-1 text-sm text-gray-400">{source.publisher}</p>
+            </div>
+            <span class="rounded-full border border-gray-600 px-2 py-1 text-xs text-gray-400">{source.status}</span>
+          </div>
+          <p class="mt-4 text-sm leading-6 text-gray-300">
+            Supports: {source.supports.join(' · ')}
+          </p>
+          <a class="mt-4 inline-block text-sm text-blue-300 hover:text-blue-200" href={source.url} target="_blank" rel="noreferrer">
+            Open source ↗
+          </a>
+        </article>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

@@ -1,17 +1,58 @@
 [
   {
-    "era": "Pre-19th Century",
-    "tradition": "West African Griots & Jallis[cite: 1]",
-    "coreElements": "Verbal storytelling, genealogy preservation, rhythmic speech over instrumentals, social commentary.[cite: 1]"
+    "era": "Pre-19th century",
+    "tradition": "West African oral traditions",
+    "coreElements": "Storytelling, historical memory, genealogy, performance, and rhythmic speech.",
+    "evidence": ["SRC-002"],
+    "status": "documented"
   },
   {
-    "era": "Late 19th–Early 20th C.",
-    "tradition": "Black Church Sermons & Spirituals[cite: 1]",
-    "coreElements": "Cadence-heavy preaching, vocal inflection, call-and-response dynamics, audience engagement techniques.[cite: 1]"
+    "era": "19th–early 20th century",
+    "tradition": "Black American oral and religious traditions",
+    "coreElements": "Spoken storytelling, poetry, rhythm, audience interaction, and performed language.",
+    "evidence": ["SRC-002", "SRC-003"],
+    "status": "documented"
   },
   {
     "era": "1920s–1950s",
-    "tradition": "Jazz Clubs & Scat Singing[cite: 1]",
-    "coreElements": "Vocal percussion, scatting, spoken word over syncopated rhythms, improvisational lyrical battles.[cite: 1]"
+    "tradition": "Jazz and blues",
+    "coreElements": "Syncopation, improvisation, rhythmic phrasing, vocal experimentation, and call-and-response.",
+    "evidence": ["SRC-004"],
+    "status": "documented"
+  },
+  {
+    "era": "1960s–early 1970s",
+    "tradition": "Spoken-word, poetry, soul, funk, and Black political performance",
+    "coreElements": "Rhythmic spoken word, topical poetry, jazz accompaniment, soul and funk rhythms.",
+    "evidence": ["SRC-002", "SRC-005"],
+    "status": "documented"
+  },
+  {
+    "era": "1970s",
+    "tradition": "New York Hip Hop culture",
+    "coreElements": "DJ techniques, extended breaks, rhythmic spoken performance, dance, visual art, and youth social spaces.",
+    "evidence": ["SRC-001", "SRC-006"],
+    "status": "documented"
+  },
+  {
+    "era": "Late 1970s–1980s",
+    "tradition": "Recorded rap and early national Hip Hop",
+    "coreElements": "MC performance translated into recordings; sampling, turntablism, social commentary, and expanding regional scenes.",
+    "evidence": ["SRC-001", "SRC-006"],
+    "status": "documented"
+  },
+  {
+    "era": "1980s–1990s",
+    "tradition": "Regional Hip Hop expansion",
+    "coreElements": "Distinct regional styles and production practices developed across New York, Los Angeles, the South, Midwest, and beyond.",
+    "evidence": ["SRC-001"],
+    "status": "documented"
+  },
+  {
+    "era": "2000s–present",
+    "tradition": "Global Hip Hop",
+    "coreElements": "Hip Hop and rap circulate globally while artists adapt the culture's techniques to local languages, histories, and musical traditions.",
+    "evidence": ["SRC-001"],
+    "status": "documented"
   }
 ]

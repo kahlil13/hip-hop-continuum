@@ -1,0 +1,52 @@
+[
+  {
+    "id": "TRAD-001",
+    "name": "West African Griot / Jalli traditions",
+    "type": "oral tradition",
+    "period": "Pre-19th century and earlier",
+    "regions": ["West Africa", "Mande", "Senegambia"],
+    "techniques": ["TECH-001", "TECH-002", "TECH-003", "TECH-005"],
+    "description": "Performed traditions associated with hereditary verbal specialists, including historical narration, genealogy, praise, critique, diplomacy, and musical performance.",
+    "status": "documented"
+  },
+  {
+    "id": "TRAD-002",
+    "name": "Black American preaching traditions",
+    "type": "religious / oral performance",
+    "period": "19th–20th century",
+    "regions": ["United States South", "United States"],
+    "techniques": ["TECH-001", "TECH-002", "TECH-003"],
+    "description": "Cadence, vocal inflection, repetition, audience participation, and call-and-response within Black church traditions.",
+    "status": "documented"
+  },
+  {
+    "id": "TRAD-003",
+    "name": "Jazz vocal improvisation",
+    "type": "musical tradition",
+    "period": "1920s–1950s and continuing",
+    "regions": ["United States"],
+    "techniques": ["TECH-002", "TECH-003"],
+    "description": "Improvised vocal and instrumental practices including scat singing and rhythmic manipulation.",
+    "status": "documented"
+  },
+  {
+    "id": "TRAD-004",
+    "name": "Spoken-word and street verbal traditions",
+    "type": "poetic / vernacular tradition",
+    "period": "20th century",
+    "regions": ["United States", "African diaspora"],
+    "techniques": ["TECH-002", "TECH-003", "TECH-004"],
+    "description": "Performed poetry, verbal competition, signifying, social commentary, and other forms of rhythmic speech.",
+    "status": "documented"
+  },
+  {
+    "id": "TRAD-005",
+    "name": "Hip Hop MCing",
+    "type": "Hip Hop element",
+    "period": "1970s–present",
+    "regions": ["New York City", "United States", "Global"],
+    "techniques": ["TECH-001", "TECH-002", "TECH-003", "TECH-004"],
+    "description": "Microphone-based performance combining rhythmic speech, rhyme, audience interaction, improvisation, competition, storytelling, and social commentary.",
+    "status": "documented"
+  }
+]

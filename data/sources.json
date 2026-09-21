@@ -1,0 +1,56 @@
+[
+  {
+    "id": "SRC-001",
+    "type": "reference",
+    "title": "Hip Hop/Rap",
+    "publisher": "Library of Congress",
+    "url": "https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/popular-songs-of-the-day/hip-hop-rap/",
+    "status": "archival reference",
+    "supports": ["early African American musical traditions", "field hollers", "blues", "toasts", "Last Poets", "regional expansion"]
+  },
+  {
+    "id": "SRC-002",
+    "type": "reference",
+    "title": "Giving Voice: The Power of Words in African American Culture",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/newsdesk/releases/smithsonian-folklife-festival-feature-program-oral-traditions-african-american-culture",
+    "status": "archival reference",
+    "supports": ["African American oral traditions", "storytelling", "poetry", "rhythm", "performance"]
+  },
+  {
+    "id": "SRC-003",
+    "type": "reference",
+    "title": "African American Music",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/spotlight/african-american-music",
+    "status": "archival reference",
+    "supports": ["African musical heritage", "African American musical traditions", "rhythmic and musical continuity"]
+  },
+  {
+    "id": "SRC-004",
+    "type": "reference",
+    "title": "African American Music",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/spotlight/african-american-music",
+    "status": "archival reference",
+    "supports": ["jazz", "blues", "improvisation", "syncopation"]
+  },
+  {
+    "id": "SRC-005",
+    "type": "reference",
+    "title": "Early Hip-Hop at the Library of Congress",
+    "publisher": "Library of Congress",
+    "url": "https://blogs.loc.gov/music/2023/08/early-hip-hop-at-the-library-of-congress/",
+    "status": "archival reference",
+    "supports": ["1960s and 1970s spoken word", "Pigmeat Markham", "Last Poets", "pre-1973 context"]
+  },
+  {
+    "id": "SRC-006",
+    "type": "reference",
+    "title": "Library of Congress Magazine: September/October 2020",
+    "publisher": "Library of Congress",
+    "url": "https://www.loc.gov/lcm/pdf/LCM_2020_0910.pdf",
+    "status": "archival reference",
+    "supports": ["DJ Kool Herc", "1973 Bronx party", "break extension"]
+  }
+]

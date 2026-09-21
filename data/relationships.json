@@ -1,0 +1,38 @@
+[
+  {
+    "id": "REL-001",
+    "source": "TRAD-001",
+    "target": "TRAD-002",
+    "type": "continuity",
+    "mechanisms": ["TECH-001", "TECH-002"],
+    "status": "interpretive",
+    "note": "The archive treats shared performance mechanics as a possible continuity to investigate, rather than assuming a single direct transmission."
+  },
+  {
+    "id": "REL-002",
+    "source": "TRAD-002",
+    "target": "TRAD-003",
+    "type": "continuity",
+    "mechanisms": ["TECH-002", "TECH-003"],
+    "status": "interpretive",
+    "note": "The relationship is framed through overlapping vocal and rhythmic practices."
+  },
+  {
+    "id": "REL-003",
+    "source": "TRAD-003",
+    "target": "TRAD-004",
+    "type": "continuity",
+    "mechanisms": ["TECH-002", "TECH-003"],
+    "status": "interpretive",
+    "note": "The relationship identifies shared improvisational and rhythmic speech practices."
+  },
+  {
+    "id": "REL-004",
+    "source": "TRAD-004",
+    "target": "TRAD-005",
+    "type": "continuity",
+    "mechanisms": ["TECH-002", "TECH-003", "TECH-004"],
+    "status": "interpretive",
+    "note": "The relationship identifies overlapping vernacular, improvisational, and competitive performance mechanics."
+  }
+]
