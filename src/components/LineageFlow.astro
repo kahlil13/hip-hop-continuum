@@ -1,22 +1,31 @@
 ---
 const mermaidCode = `
 graph TD
-  A[West African Griots and Jallis] -->|Oral Storytelling, Lineage Tracking| B[African-American Church Sermons]
+  A[West African Griot] -->|Oral Storytelling, Lineage Tracking| B[African-American Church Sermons]
   B -->|Call-and-Response, Cadence| C[Jazz Clubs and Soul Quartets]
-  C -->|Scat Singing, Spoken Word| D[The Last Poets and Street Signifying]
+  C -->|Scat Singing, Spoken Word| D[The Last Poets]
   D -->|Rhythmic Political Poetry| E[Modern Hip Hop MCing]
   
+  click A "/hip-hop-continuum/entities/west-african-griot" "View West African Griot History"
+  click D "/hip-hop-continuum/entities/the-last-poets" "View The Last Poets History"
+  
   classDef default fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#f3f4f6;
+  classDef clickable fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#f3f4f6,cursor:pointer;
+  
+  class A,D clickable;
 `;
 ---
 <div class="bg-gray-800 p-6 rounded-lg mt-8 border border-gray-700">
   <h3 class="text-xl font-bold text-white mb-6">Ancestral Lineage Flow</h3>
+  <p class="text-sm text-gray-400 mb-4 italic">Click highlighted nodes to view historical documentation.</p>
   <div class="mermaid flex justify-center" set:text={mermaidCode}></div>
 </div>
 
 <script type="module" is:inline>
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true, theme: 'dark' });
-</script>git add src/components/LineageFlow.astro
-git commit -m "Fix Mermaid minification error using Astro set:text directive"
-git push origin main
+  mermaid.initialize({ 
+    startOnLoad: true, 
+    theme: 'dark',
+    securityLevel: 'loose' // Required to enable clickable links in Mermaid
+  });
+</script>
