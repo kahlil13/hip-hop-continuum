@@ -1,0 +1,20 @@
+[
+  {
+    "id": "PLACE-001",
+    "name": "West Africa",
+    "type": "region",
+    "significance": "Major geographic context for the West African oral traditions represented in the archive."
+  },
+  {
+    "id": "PLACE-002",
+    "name": "United States South",
+    "type": "region",
+    "significance": "Important context for Black American church, vernacular, musical, and oral-performance traditions."
+  },
+  {
+    "id": "PLACE-003",
+    "name": "New York City",
+    "type": "city",
+    "significance": "Major 20th-century site for spoken-word, DJ, dance, graffiti, and MCing practices that became central to Hip Hop."
+  }
+]
