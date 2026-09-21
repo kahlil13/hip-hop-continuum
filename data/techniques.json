@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TECH-001",
+    "name": "Call and response",
+    "category": "performance",
+    "description": "A reciprocal structure in which a lead voice or performer prompts and an audience, chorus, or second performer answers.",
+    "relatedTerms": ["response", "audience participation"],
+    "status": "documented"
+  },
+  {
+    "id": "TECH-002",
+    "name": "Rhythmic speech",
+    "category": "vocal",
+    "description": "Speech shaped through meter, cadence, repetition, pitch, and rhythmic emphasis.",
+    "relatedTerms": ["cadence", "flow"],
+    "status": "documented"
+  },
+  {
+    "id": "TECH-003",
+    "name": "Improvisation",
+    "category": "performance",
+    "description": "Real-time creation or variation of vocal, musical, or performative material within an established rhythmic or social framework.",
+    "relatedTerms": ["freestyle", "scat"],
+    "status": "documented"
+  },
+  {
+    "id": "TECH-004",
+    "name": "Signifying",
+    "category": "language",
+    "description": "Indirect, playful, coded, or competitive verbal expression whose meaning depends on context, delivery, and shared cultural knowledge.",
+    "relatedTerms": ["boasting", "verbal competition"],
+    "status": "interpretive"
+  },
+  {
+    "id": "TECH-005",
+    "name": "Genealogical storytelling",
+    "category": "oral history",
+    "description": "The preservation and transmission of lineage, memory, identity, and historical knowledge through performed narrative.",
+    "relatedTerms": ["oral history", "praise"],
+    "status": "documented"
+  }
+]
