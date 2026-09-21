@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -17,7 +19,9 @@ const { title, description = "The Historical Continuum of Hip Hop" } = Astro.pro
   <body class="max-w-4xl mx-auto p-8 font-sans">
     <header class="mb-12 border-b border-gray-800 pb-6">
       <nav class="mb-4">
-        <a href="/" class="text-blue-400 hover:text-blue-300 font-semibold text-sm tracking-widest uppercase">Home</a>
+        <a href="/hip-hop-continuum/" class="text-blue-400 hover:text-blue-300 font-semibold text-sm tracking-widest uppercase">Home</a>
+        <span class="text-gray-600 mx-2">|</span>
+        <a href="/hip-hop-continuum/glossary" class="text-blue-400 hover:text-blue-300 font-semibold text-sm tracking-widest uppercase">Glossary</a>
       </nav>
       <h1 class="text-4xl font-extrabold tracking-tight text-white mb-2">{title}</h1>
       <p class="text-xl text-gray-400">{description}</p>
