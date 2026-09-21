@@ -7,10 +7,52 @@
     "description": "Hereditary verbal specialists responsible for historical narration, genealogy, praise, critique, diplomacy, and musical performance. They are the foundational ancestral node of the oral rhythmic continuum."
   },
   {
+    "name": "Black American Preaching",
+    "type": "Tradition",
+    "era": "19th - 20th Century",
+    "origin": "American South",
+    "description": "Church traditions utilizing cadence, vocal inflection, repetition, audience participation, and call-and-response. This established the foundational rhythmic relationship between a speaker and a crowd."
+  },
+  {
+    "name": "Jazz Vocal Improvisation",
+    "type": "Technique",
+    "era": "1920s - 1950s",
+    "origin": "New Orleans, Chicago, New York",
+    "description": "Improvised vocal practices including scat singing and rhythmic manipulation, separating the voice from strict lyrical meaning and treating it as a percussive instrument."
+  },
+  {
+    "name": "Spoken Word and Street Verbal Traditions",
+    "type": "Tradition",
+    "era": "1960s",
+    "origin": "Urban Centers (New York, Chicago)",
+    "description": "Performed poetry, verbal competition, the dozens, signifying, and social commentary. This era codified rhythmic street speech as a tool for political and social expression."
+  },
+  {
     "name": "The Last Poets",
     "type": "Entity",
     "era": "Late 1960s",
     "origin": "Harlem, New York",
-    "description": "A collective of poets and musicians who arose from the Black Civil Rights movement. Their politically charged, rhythmic spoken-word over minimal drum backing heavily influenced the cadence and subject matter of early MCing."
+    "description": "A collective of poets and musicians arising from the Black Civil Rights movement. Their politically charged, rhythmic spoken-word over minimal drum backing heavily influenced the cadence and subject matter of early MCing."
+  },
+  {
+    "name": "New York Hip Hop Culture",
+    "type": "Era",
+    "era": "1970s",
+    "origin": "Bronx, New York",
+    "description": "The convergence of DJ techniques, extended breakbeats, rhythmic spoken performance, b-boying, and visual art within youth social spaces. This marks the formal synthesis of earlier continuum traditions."
+  },
+  {
+    "name": "Hip Hop MCing",
+    "type": "Tradition",
+    "era": "Late 1970s - Present",
+    "origin": "New York",
+    "description": "Microphone-based performance combining rhythmic speech, rhyme, audience interaction, improvisation, competition, storytelling, and social commentary."
+  },
+  {
+    "name": "Regional Expansion",
+    "type": "Era",
+    "era": "1980s - 1990s",
+    "origin": "Los Angeles, Houston, Atlanta, Virginia",
+    "description": "The decentralization of Hip Hop from New York, leading to distinct regional production styles, tempos, and localized slang that built upon the core MCing and DJing traditions."
   }
 ]
