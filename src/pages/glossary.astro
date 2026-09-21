@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import glossaryData from '../../data/glossary.json';
+---
+
+<BaseLayout 
+  title="Glossary & Lexicon" 
+  description="Semantic inversion, AAVE roots, and street vernacular."
+>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+    {glossaryData.map((item) => (
+      <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 shadow-md">
+        <h2 class="text-2xl font-bold text-blue-400 mb-2">{item.term}</h2>
+        <p class="text-xs text-gray-400 mb-4 tracking-wider uppercase">{item.origin}</p>
+        
+        <div class="mb-3">
+          <span class="text-gray-500 text-sm font-semibold">Meaning:</span>
+          <p class="text-gray-200">{item.meaning}</p>
+        </div>
+        
+        <div class="mb-3">
+          <span class="text-gray-500 text-sm font-semibold">Ancestral Roots:</span>
+          <p class="text-gray-300 text-sm italic">{item.roots}</p>
+        </div>
+        
+        <div class="mt-4 pt-4 border-t border-gray-700">
+          <p class="text-sm text-gray-400">{item.function}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
