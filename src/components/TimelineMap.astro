@@ -1,13 +1,32 @@
 ---
 import entitiesData from '../../data/entities.json';
 
-// Generate the exact same slug used by the dynamic router
 const generateSlug = (name: string) => {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
 };
+
+// Map eras to approximate sorting weights for chronological order
+const getEraWeight = (era: string) => {
+  const e = era.toLowerCase();
+  if (e.includes('pre') || e.includes('century')) return 10;
+  if (e.includes('emancipation')) return 20;
+  if (e.includes('1920')) return 30;
+  if (e.includes('1964')) return 35;
+  if (e.includes('1970')) return 40;
+  if (e.includes('1979') || e.includes('1980')) return 50;
+  if (e.includes('1987')) return 55;
+  if (e.includes('1990')) return 60;
+  if (e.includes('2000') || e.includes('early 2000')) return 70;
+  return 100;
+};
+
+// Sort entities chronologically
+const sortedEntities = [...entitiesData].sort((a, b) => {
+  return getEraWeight(a.era) - getEraWeight(b.era);
+});
 ---
 <div class="relative border-l-2 border-gray-700 ml-3 md:ml-0 md:pl-6 space-y-8 mt-8">
-  {entitiesData.map((entity) => (
+  {sortedEntities.map((entity) => (
     <div class="relative">
       {/* Timeline Dot */}
       <div class="absolute -left-[31px] md:-left-[33px] top-1.5 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-900"></div>
