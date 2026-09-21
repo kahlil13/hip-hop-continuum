@@ -1,19 +1,22 @@
 ---
+const mermaidCode = `
+graph TD
+  A[West African Griots and Jallis] -->|Oral Storytelling, Lineage Tracking| B[African-American Church Sermons]
+  B -->|Call-and-Response, Cadence| C[Jazz Clubs and Soul Quartets]
+  C -->|Scat Singing, Spoken Word| D[The Last Poets and Street Signifying]
+  D -->|Rhythmic Political Poetry| E[Modern Hip Hop MCing]
+  
+  classDef default fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#f3f4f6;
+`;
 ---
 <div class="bg-gray-800 p-6 rounded-lg mt-8 border border-gray-700">
   <h3 class="text-xl font-bold text-white mb-6">Ancestral Lineage Flow</h3>
-  <pre class="mermaid flex justify-center bg-transparent border-0">
-    graph TD
-      A[West African Griots and Jallis] -->|Oral Storytelling, Lineage Tracking| B[African-American Church Sermons]
-      B -->|Call-and-Response, Cadence| C[Jazz Clubs and Soul Quartets]
-      C -->|Scat Singing, Spoken Word| D[The Last Poets and Street Signifying]
-      D -->|Rhythmic Political Poetry| E[Modern Hip Hop MCing]
-      
-      classDef default fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#f3f4f6;
-  </pre>
+  <div class="mermaid flex justify-center" set:text={mermaidCode}></div>
 </div>
 
-<script type="module">
+<script type="module" is:inline>
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true, theme: 'dark' });
-</script>
+</script>git add src/components/LineageFlow.astro
+git commit -m "Fix Mermaid minification error using Astro set:text directive"
+git push origin main
