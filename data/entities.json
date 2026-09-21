@@ -1,20 +1,16 @@
 [
   {
-    "id": "ENT-001",
-    "name": "Sylvia Robinson",
-    "role": ["Producer", "Executive Architect"],
-    "significance": "Founder of Sugar Hill Records; financed and produced the first commercial Hip Hop hits ('Rapper's Delight', 'The Message').[cite: 1]"
+    "name": "West African Griot",
+    "type": "Tradition",
+    "era": "Pre-19th Century",
+    "origin": "West Africa (Mali, Senegal, Gambia)",
+    "description": "Hereditary verbal specialists responsible for historical narration, genealogy, praise, critique, diplomacy, and musical performance. They are the foundational ancestral node of the oral rhythmic continuum."
   },
   {
-    "id": "ENT-002",
-    "name": "MC Sha-Rock",
-    "role": ["Pioneer MC"],
-    "significance": "Lead MC of Funky 4 + 1; pioneered multi-tone vocal projection and dynamic microphone-passing cadences.[cite: 1]"
-  },
-  {
-    "id": "ENT-003",
     "name": "The Last Poets",
-    "role": ["Spoken Word Artists"],
-    "significance": "Synthesized radical Black nationalist critique with rhythmic spoken word over West African conga rhythms.[cite: 1]"
+    "type": "Entity",
+    "era": "Late 1960s",
+    "origin": "Harlem, New York",
+    "description": "A collective of poets and musicians who arose from the Black Civil Rights movement. Their politically charged, rhythmic spoken-word over minimal drum backing heavily influenced the cadence and subject matter of early MCing."
   }
 ]
