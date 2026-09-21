@@ -1,0 +1,14 @@
+---
+import timelineData from '../../data/timeline.json';
+---
+
+<div class="relative border-l border-gray-700 ml-6 mt-8">
+  {timelineData.map((item) => (
+    <div class="mb-10 ml-6">
+      <span class="absolute flex items-center justify-center w-4 h-4 bg-blue-900 rounded-full -left-2 ring-4 ring-gray-900"></span>
+      <h3 class="mb-1 text-lg font-bold text-gray-100">{item.era}</h3>
+      <h4 class="text-md font-semibold text-blue-400">{item.tradition}</h4>
+      <p class="mt-2 text-base font-normal text-gray-400">{item.coreElements}</p>
+    </div>
+  ))}
+</div>
